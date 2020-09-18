@@ -1,0 +1,12 @@
+body {
+  background-color: blueviolet
+}
+#fname {
+  background-color: blue
+}
+#lname {
+  background-color: blue
+}
+table, th, td {
+  border: 1px solid black;
+}
