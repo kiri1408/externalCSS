@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>PROJECT</title>
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<style>
+		.textformat{
+			color:black;
+			text-align:left; /*left,center,right,justify*/
+			text-indent:20px; /*indent size*/
+			font-family:"Arial"; /*font options 1.Arial 2.Times New Roman*/
+			font-size:20px;    /*30px->2em (1em=16px)*/
+
+			
+		.textformat2{
+			color:black;
+			text-align:left;
+			text-indent:20px;
+			font-size:20px; 
+			font-family: "Arial";
+			text-transform:lowercase;
+			font-variant:small-caps;
+			
+</style>
+<body>
+	<div data-role="page" id="page1">
+		<div data-role="header">
+		    <img src="bgimage.jpg" width="100%" height="300"/><br>
+			
+			<table border ="0" width="100%" height="50">
+			<tr>
+			<td align="center"><a href="#page1"><button style="height: 100; width: 100%"><img src="homeimg.png" width="20" height="20" align="center" valign="top"/><br>
+			<strong>Home</strong></button></a></td>
+			
+			<td align="center"><a href="#page2"><button style="height: 100; width: 100%"><img src="menusimg.png" width="20" height="20" align="center" valign="top"/><br>
+			<strong>Menus</strong></button></a></td>
+			
+			<td align="center"><a href="#page3"><button style="height: 100; width: 100%"><img src="orderimg.png" width="20" height="20" align="center" valign="top"/><br>
+			<strong>Make Order</strong></button></a></td>
+			
+			<td align="center"><a href="#page4"><button style="height: 100; width: 100%"><img src="infoimg.png" width="30" height="20" align="center" valign="top"/><br>
+			<strong>Owner Info</strong></button></a></td>
+			</tr>
+			</table>
+		</div>
+		
+		<div data-role="main" class="ui-content">
+			<h1 align="left" face= "verdana" color="blue"><font color="blue"><strong>Welcome to The Cake and Bakery Cafe</strong></font></h1>
+			
+			<p class="textformat" align="left" size="20">
+				Cake is a form of sweet food made from flour, sugar, and other ingredients, that is usually baked.
+			In their oldest forms, cakes were modifications of bread, but cakes now cover a wide range of preparations
+			that can be simple or elaborate, and that share features with other desserts such as pastries, meringues,
+			custards, and pies.
+				The most commonly used cake ingredients include flour, sugar, eggs, butter or oil or margarine, a liquid,
+			and leavening agents, such as baking soda or baking powder. Common additional ingredients and flavourings 
+			include dried, candied, or fresh fruit, nuts, cocoa, and extracts such as vanilla, with numerous substitutions
+			for the primary ingredients. Cakes can also be filled with fruit preserves, nuts or dessert sauces (like pastry
+			cream), iced with buttercream or other icings, and decorated with marzipan, piped borders, or candied fruit.
+				Cake is often served as a celebratory dish on ceremonial occasions, such as weddings, anniversaries, and 
+			birthdays. There are countless cake recipes; some are bread-like, some are rich and elaborate, and many are 
+			centuries old. Cake making is no longer a complicated procedure; while at one time considerable labor went into 
+			cake making (particularly the whisking of egg foams), baking equipment and directions have been simplified so 
+			that even the most amateur of cooks may bake a cake.
+				A bakery is an establishment that produces and sells flour-based food baked in an oven such as bread, cookies,
+			cakes, pastries, and pies. Some retail bakeries are also categorized as cafés, serving coffee and tea to customers 
+			who wish to consume the baked goods on the premises. Confectionery items are also made in most bakeries throughout
+			the world.
+            </p>
+		</div>
+		
+		<div data-role="footer">
+			<h2>Copyright@Cake and Bakery Cafe</h2>
+		</div>
+
+	</div>
+
+
+
+
+	<div data-role="page" id="page2">
+	
+		<div data-role="header">
+		    <img src="bgimage.jpg" width="100%" height="300"/><br>
+			
+			<table border ="0" width="100%" height="50">
+			<tr>
+			<td align="center"><a href="#page1"><button style="height: 100; width: 100%"><img src="homeimg.png" width="20" height="20" align="center" valign="top"/><br>
+			<strong>Home</strong></button></a></td>
+			
+			<td align="center"><a href="#page2"><button style="height: 100; width: 100%"><img src="menusimg.png" width="20" height="20" align="center" valign="top"/><br>
+			<strong>Menus</strong></button></a></td>
+			
+			<td align="center"><a href="#page3"><button style="height: 100; width: 100%"><img src="orderimg.png" width="20" height="20" align="center" valign="top"/><br>
+			<strong>Make Order</strong></button></a></td>
+			
+			<td align="center"><a href="#page4"><button style="height: 100; width: 100%"><img src="infoimg.png" width="30" height="20" align="center" valign="top"/><br>
+			<strong>Owner Info</strong></button></a></td>
+			</tr>
+			</table>
+		</div>
+		
+		
+		<div data-role="main" class="ui-content">
+			<h1 align="center"><font color="blue"><strong>List of Menus</strong></font></h1><br>
+			
+			
+			<h3><font color="red">Cakes & Bread</font></h3>
+			<table border ="0" width="10%" >
+			
+				<tr>
+					<td align ="left"><img src="img1.jpg" width="300" height="300"/><br>
+			<center>Code:C01<BR>
+					Name:Black Forest Cake<BR>
+					Price: RM 6.00</center></td>
+					
+					<td align ="right"><img src="img2.jpg" width="300" height="300"/>
+			<center>Code:C02<BR>
+					Name:Red Velvet Cake<BR>
+					Price: RM 6.00</center></td>
+				</tr>
+				<br>
+				<tr>
+					<td align ="left"><img src="img3.jpg" width="300" height="300"/>
+			<center>Code:B03<BR>
+					Name:Soft Seedy Sandwich Bread<BR>
+					Price: RM 5.00</center></td>
+					
+					<td align ="right"><img src="img4.jpg" width="300" height="300"/>
+			<center>Code:B04<BR>
+					Name:Homemade White Bread<BR>
+					Price: RM 5.00</center></td>
+					</td>
+				</tr>
+				</table>
+			<br>
+			
+			<h3><font color="red">Drinks & Beverages</font></h3>
+			<table border ="0" width="10%" height="600" >
+				<tr>
+					<td align ="left" ><img src="img5.png" width="300" height="300"/>
+			<center>Code:DB01<BR>
+					Name:Can Drinks<BR>
+					Price: RM 2.00</center></td></td>
+					
+					<td align ="right"><img src="img6.jpg" width="300" height="300"/>
+			<center>Code:DB02<BR>
+					Name:Hot Drinks<BR>
+					Price: RM 3.00</center></td></td>
+				</tr>
+				<br>
+				<tr>
+					<td align ="left"><img src="img7.jpg" width="300" height="300"/>
+			<center>Code:DB05<BR>
+					Name:Milo<BR>
+					Price: RM 2.00</center></td></td>
+					<td align ="right"><img src="img8.jpg" width="300" height="300"/>
+			<center>Code:DB04<BR>
+					Name:Fresh Fruits Juice<BR>
+					Price: RM 5.00</center></td></td>
+				</tr>
+				</table>
+			</div>
+			<br>
+			
+		
+		<div data-role="footer">
+			<h2>Copyright@Cake and Bakery Cafe</h2>
+		</div>
+
+</div>
+	
+	
+	
+	
+	
+
+<div data-role="page" id="page3">
+			
+		<div data-role="header">
+		<img src="bgimage.jpg" width="100%" height="300"/><br>
+		
+			
+			<table border ="0" width="100%" height="50">
+			<tr>
+			<td align="center"><a href="#page1"><button style="height: 100; width: 100%"><img src="homeimg.png" width="20" height="20" align="center" valign="top"/><br>
+			<strong>Home</strong></button></a></td>
+			
+			<td align="center"><a href="#page2"><button style="height: 100; width: 100%"><img src="menusimg.png" width="20" height="20" align="center" valign="top"/><br>
+			<strong>Menus</strong></button></a></td>
+			
+			<td align="center"><a href="#page3"><button style="height: 100; width: 100%"><img src="orderimg.png" width="20" height="20" align="center" valign="top"/><br>
+			<strong>Make Order</strong></button></a></td>
+			
+			<td align="center"><a href="#page4"><button style="height: 100; width: 100%"><img src="infoimg.png" width="30" height="20" align="center" valign="top"/><br>
+			<strong>Owner Info</strong></button></a></td>
+			</tr>
+			</table>    
+		
+		</div>
+		
+		
+<div>
+		<center><h1>Order Now</h1></center>
+		<center>
+			<table border="0">
+			<form name="result" onsubmit="return process()">		
+			<tr>
+				<th align="left">Customer Name:</th>
+			</tr>
+			<tr>
+				<td><input type="text" id="name" size="100" maxlength="100" placeholder="Enter Customer Name" required/></td>
+			</tr>
+			
+			<tr>
+				<th align="left">Telephone No:</th></br>
+			</tr>
+			<tr>
+				<td><input type="number" id="notel" size="100" maxlength="100" placeholder="Enter Telephone No." required></td>
+			</tr>
+			
+			<tr>
+				<th align="left">Order Date:</th></br>
+			</tr>
+			<tr>
+				<td><input type="date" id="odate" size="100" maxlength="100" required></td>
+			</tr>
+			
+			<tr>
+				<th align="left">E-mail:</th></br>
+			</tr>
+			<tr>
+				<td><input type="email" id="mail" size="100" maxlength="100" placeholder="Enter Customer E-mail" required></td>
+			</tr>
+			
+			<tr>
+				<th align="left">Address</th></br>
+				</tr>
+				<tr>
+				<td><input type="text" id="adres" size="100" maxlength="100" placeholder="Enter Customer Address" required></td>
+			</tr>
+
+			<tr>
+				<th align="left">Order Item</th>
+				</tr>
+			<tr>
+				<td><select id="item1" required>
+					<option value="">--Choose Cake & Bread--</option>
+					<option value="Black Forest">Black Forest</option>
+					<option value="Red Velvet">Red Velvet</option>
+					<option value="Soft Seedy Sandwich Bread">Soft Seedy Sandwich Bread</option>
+					<option value="Homemade White Bread">Homemade White Bread</option>
+					</select>
+				<td><input type="number" id="qty1"></td></td>
+				</tr>
+				
+				<tr>
+				<td><select id="item2">
+					<option value="">--Choose Cake & Bread--</option>
+					<option value="Black Forest">Black Forest</option>
+					<option value="Red Velvet">Red Velvet</option>
+					<option value="Soft Seedy Sandwich Bread">Soft Seedy Sandwich Bread</option>
+					<option value="Homemade White Bread">Homemade White Bread</option>
+					</select>
+				<td><input type="number" id="qty2"></td></td>
+				</tr>
+				
+				<tr>
+				<td><select id="item3">
+					<option value="" >--Drinks & Beverages--</option>
+					<option value="Can Drinks">Can Drinks</option>
+					<option value="Hot Drinks">Hot Drinks</option>
+					<option value="Milo">Milo</option>
+					<option value="Fresh Fruits Juice">Fresh Fruits Juice</option>
+					</select>
+				<td><input type="number" id="qty3"></td></td>
+				</tr>
+			</tr>
+			
+			<tr>
+				<th>
+				<button><input type="submit" size="50" value="Submit Process" onclick="process()"/></button>
+				</th>
+			</tr>
+			</form>
+		</table>
+		
+		
+		<table border="0">
+			
+				<h1>Order Details</h1>
+					
+			<tr>
+				<th align="left">Customer Name</th>
+				<td size="100" id="rname"></td>
+			</tr>
+			
+			<tr>
+				<th align="left">Telephone No</th>
+				<td size="100" id="Rnotel"></td>
+			</tr>
+			
+			<tr>
+				<th align="left">Order Date</th>
+				<td size="100" id="Rodate"></td>
+			</tr>
+			
+			<tr>
+				<th align="left">E-mail</th>
+				<td size="100" id="Rmail"></td>
+			</tr>
+			
+			<tr>
+				<th align="left">Address</th>
+				<td size="100" id="Radres"></td>
+			</tr>
+			
+			<tr>
+				<th align="left">Order Item</th>
+				</tr>
+				<tr>
+					<th>1.</th>
+					<td size="50%" id="ritem1"></td>
+					<td size="50%" id="rqty1"></td>
+				</tr>
+					
+				<tr>
+					<th>2.</th>
+					<td size="50%" id="ritem2"></td>
+					<td size="50%" id="rqty2"></td>
+				</tr>
+					
+				<tr>
+					<th>3.</th>
+					<td size="50%" id="ritem3"></td>
+					<td size="50%" id="rqty3"></td>
+				</tr>
+			</tr>
+			
+			<tr>
+				<th align="left">Total</th>
+				<td size="50%" id="ttl"></td>
+			</tr>
+			
+		</table>
+		
+		
+			<script>
+			function process()
+			{
+			var name=document.getElementById("name").value;
+			var notel=Number(document.getElementById("notel").value);
+			var odate=document.getElementById("odate").value;
+			var mail=document.getElementById("mail").value;
+			var adres=document.getElementById("adres").value;
+			
+			var item1=document.getElementById("item1").value;
+			var qty1=Number(document.getElementById("qty1").value);
+			var price1=order(item1);
+			
+			var item2=document.getElementById("item2").value;
+			var qty2=Number(document.getElementById("qty2").value);
+			var price2=order(item2);
+			
+			var item3=document.getElementById("item3").value;
+			var qty3=Number(document.getElementById("qty3").value);
+			var price3=order(item3);
+			
+			var ttlprice = price1*qty1 + price2*qty2 + price3*qty3;
+		
+			document.getElementById("rname").innerHTML = ":" +name;
+		document.getElementById("Rnotel").innerHTML = ":+60" +notel;
+			document.getElementById("Rodate").innerHTML = ":"+odate;
+			document.getElementById("Rmail").innerHTML = ":" +mail;
+			document.getElementById("Radres").innerHTML = ":" +adres;
+			
+			document.getElementById("ritem1").innerHTML = item1;
+			document.getElementById("rqty1").innerHTML = qty1;
+			
+			document.getElementById("ritem2").innerHTML = item2;
+			document.getElementById("rqty2").innerHTML = qty2;
+			
+			document.getElementById("ritem3").innerHTML = item3;
+			document.getElementById("rqty3").innerHTML = qty3;
+			
+			document.getElementById("ttl").innerHTML = ":RM" +ttlprice.toFixed(2);
+			
+			return false;
+			
+			}
+			function order(item)
+			{
+				if(item=="Black Forest Cake")
+					return 6.00
+				else if(item=="Red Velvet Cake")
+					return 6.00
+				else if(item=="Soft Seedy Sandwich Bread")
+					return 5.00
+				else if(item=="Homemade White Bread")
+					return 5.00
+				else if(item=="Can Drinks")
+					return 2.00
+				else
+					if(item=="Hot Drinks")
+					return 3.00
+				else 
+					if(item=="Milo")
+					return 2.00
+				else
+				    if(item=="Fresh Fruits Juice")
+					return 5.00
+				else
+					return 0.0
+				}
+			</script>
+		</center>
+	</div>
+
+		
+		<div data-role="footer" >
+			<h2>Copyright@Cake and Bakery Cafe</h2>
+		</div>
+</div>	
+		
+		
+		
+		
+		
+		
+		
+<div data-role="page" id="page4">
+			
+		<div data-role="header">
+		<img src="bgimage.jpg" width="100%" height="300"/><br>
+			
+			<table border ="0" width="100%" height="50">
+			<tr>
+			<td align="center"><a href="#page1"><button style="height: 100; width: 100%"><img src="homeimg.png" width="20" height="20" align="center" valign="top"/><br>
+			<strong>Home</strong></button></a></td>
+			
+			<td align="center"><a href="#page2"><button style="height: 100; width: 100%"><img src="menusimg.png" width="20" height="20" align="center" valign="top"/><br>
+			<strong>Menus</strong></button></a></td>
+			
+			<td align="center"><a href="#page3"><button style="height: 100; width: 100%"><img src="orderimg.png" width="20" height="20" align="center" valign="top"/><br>
+			<strong>Make Order</strong></button></a></td>
+			
+			<td align="center"><a href="#page4"><button style="height: 100; width: 100%"><img src="infoimg.png" width="30" height="20" align="center" valign="top"/><br>
+			<strong>Owner Info</strong></button></a></td>
+			</tr>
+			</table>    
+		</div>
+		
+			<div data-role="main" class="ui-content">
+			<h1 align="left" ><font color="blue"><strong>Owner Info</strong></font></h1>
+			
+			<h3><font color="black" >Group Member 1</font></h3>
+			<font  face= "arial"><b><i>Name</i></b></font>
+			<font  face= "arial"></font><b>: Kiritharan A/L Ramasamy</b><br>
+	 
+			<font  face= "arial"><b><i>Matric No</i></b></font>
+			<font  face= "arial"></font><b>: 18DDT18F1113</b><br>
+	 
+	 
+			<h3>Group Member 2</h3>
+			<font  face= "arial"><b><i>Name</i></b></font>
+			<font  face= "arial"></font><b>: Kumarendran A/L Karthikeasan</b><br>
+	 
+			<font  face= "arial"><b><i>Matric No</i></b></font>
+			<font  face= "arial"></font><b>: 18DDT18F1185</b><br>
+	 
+	 
+			<h3>Group Member 3</h3>
+			<font  face= "arial"><b><i>Name</i></b></font>
+			<font  face= "arial"></font><b>: Uthayan A/L Somasundrum</b><br>
+	 
+			<font  face= "arial"><b><i>Matric No</i></b></font>
+			<font  face= "arial"></font><b>: 18DDT18F1079</b><br>
+			
+			
+			
+		
+			</div>
+		
+			<div data-role="footer" >
+			<h2>Copyright@Cake and Bakery Cafe</h2>
+		</div>
+</div>
+
+</body>
+</html>
